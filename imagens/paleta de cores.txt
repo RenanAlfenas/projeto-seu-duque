@@ -1,0 +1,8 @@
+paleta de cores projeto
+
+#14231E
+#C98D5B
+#1F2620
+#BF7F5A
+branco
+#D8D8BE (creme)

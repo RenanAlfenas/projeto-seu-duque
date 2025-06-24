@@ -1,0 +1,10 @@
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Germania+One&display=swap');
+</style>
+
+.germania-one-regular {
+  font-family: "Germania One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
