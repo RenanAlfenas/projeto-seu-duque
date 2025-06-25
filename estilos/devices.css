@@ -107,7 +107,7 @@ section#identidade p {
     line-height: 20px;
     font-size: 1.2em;
 
-    position: fixed;
+    position: absolute;
     top: 250px;
     left: 280px;
     min-width: 350px;
