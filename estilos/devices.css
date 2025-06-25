@@ -1,4 +1,9 @@
 @charset "UTF-8";
+
+@media screen and (min-width: 700px){
+    
+
+
 *:root {
     --cor1: #14231E;
     --cor2: #C98D5B;
@@ -44,7 +49,7 @@ header h1 {
     grid-area: 1/2/2/-1;
     color: white;
     font-weight: lighter;
-    font-size: 1.7em;
+    font-size: 3.7em;
     margin: auto;
     font-family: titulo ,Arial, Helvetica, sans-serif;}
 
@@ -74,7 +79,7 @@ section.identidade {
 }
 
 img.identidade {
-    width: 150px;
+    width: 250px;
     margin-top: 20px;
     margin-left: 10px;
     border-radius: 10px; 
@@ -82,9 +87,9 @@ img.identidade {
 
 section#identidade h2{
     position: absolute;
-    top: 200px;
-    left: 180px;
-    font-size: 1.6em;
+    top: 180px;
+    left: 300px;
+    font-size: 3em;
     color: white;
     font-family: "Germania One", system-ui;
     font-weight: 400;
@@ -97,27 +102,35 @@ section#identidade p {
     text-align: justify;
     color: white;
     line-height: 20px;
+    font-size: 1.2em;
+
+    position: fixed;
+    top: 250px;
+    left: 280px;
+    min-width: 350px;
+    max-width: 850px;
+    text-decoration: underline;
 }
 
 section#local {
     position: relative;
-    margin-top: 50px;
+    margin-top: 100px;
     display: grid;
-    justify-items: flex-end;
+    justify-items: flex-start;
 }
 
 img.local {
-    width: 150px;
+    width: 310px;
     border-radius: 10px;
-    margin-right: 10px;
+    margin-left: 10px;
     
 }
 
 section#local h2 {
     position: absolute;
-    top: 20px;
-    left: 20px;
-    font-size: 1.6em;
+    top: -15px;
+    left: 330px;
+    font-size: 3em;
     color: white;
     font-family: "Germania One", system-ui;
     font-weight: 400;
@@ -129,6 +142,14 @@ section#local p {
     text-align: justify;
     color: white;
     line-height: 25px;
+    font-size: 1.2em;
+
+    position: absolute;
+    top: 40px;
+    left: 320px;
+    min-width: 350px;
+    max-width: 850px;
+    text-decoration: underline;
 }
 
 strong {
@@ -147,6 +168,7 @@ h1.cardapio{
     color: var(--cor2);
     margin: 20px;
     font-weight: 400;
+    font-size: 3em;
 
 }
 section.prato1 {
@@ -154,24 +176,30 @@ section.prato1 {
 }
 
 section.prato1 img {
-    width: 150px;
-    padding: 10px;
+    width: 200px;
+    margin-right: 20px;
     border-radius: 30px;
 }
 
 section.prato1 h2 {
     color: white;
     position: absolute;
-    top: 50px;
-    left: 150px;
+    top: 30px;
+    left: 220px;
+    font-size: 2em;
 }
 
 section.prato1 p {
     margin: 20px;
     color: white;
     text-align: justify;
-    font-size: 0.9em;
+    font-size: 1.3em;
     line-height: 25px;
+
+    position: absolute;
+    top: 70px;
+    left: 200px;
+    max-width: 800px;
 }
 
 /*----------prato 2---------------*/
@@ -181,24 +209,30 @@ section.prato2 {
 }
 
 section.prato2 img {
-    width: 150px;
-    padding: 10px;
+    width: 200px;
+    margin-right: 20px;
     border-radius: 30px;
 }
 
 section.prato2 h2 {
-    color: white;
+     color: white;
     position: absolute;
-    top: 50px;
-    left: 150px;
+    top: 30px;
+    left: 220px;
+    font-size: 2em;
 }
 
 section.prato2 p {
-    margin: 20px;
+     margin: 20px;
     color: white;
     text-align: justify;
-    font-size: 0.9em;
+    font-size: 1.3em;
     line-height: 25px;
+
+    position: absolute;
+    top: 70px;
+    left: 200px;
+    max-width: 800px;
 }
 
 /*-------------prato 3------------*/
@@ -208,26 +242,31 @@ section.prato3 {
 }
 
 section.prato3 img {
-    width: 150px;
-    padding: 10px;
+    width: 200px;
+    margin-right: 20px;
     border-radius: 30px;
 }
 
 section.prato3 h2 {
     color: white;
     position: absolute;
-    top: 50px;
-    left: 150px;
+    top: 30px;
+    left: 220px;
+    font-size: 2em;
 }
 
 section.prato3 p {
     margin: 20px;
     color: white;
     text-align: justify;
-    font-size: 0.9em;
+    font-size: 1.3em;
     line-height: 25px;
-}
 
+    position: absolute;
+    top: 70px;
+    left: 200px;
+    max-width: 800px;
+}
 
 /* ---------------------------------- CORPO DO SITE/eventos----------------------------------------------*/
 
@@ -245,11 +284,13 @@ section#ev1 {
 
 section#ev1 h2 {
     color: var(--cor5);
-    padding: 20px;
+    position: absolute;
+    top: 50px;
+    left: 240px;
 }
 
 section#ev1 img {
-    width: 130px;
+    width: 200px;
     margin: 20px;
 }
 
@@ -257,9 +298,10 @@ section#ev1 p.parag1 {
     color: white;
     text-align: justify;
     position: absolute;
-    top: 100px;
-    left: 160px;
+    top: 130px;
+    left: 230px;
     margin: 15px;
+    width: 400px;
 }
 
 section#ev1 p.parag2 {
@@ -267,7 +309,7 @@ section#ev1 p.parag2 {
     text-align: justify;
     position: absolute;
     top: 180px;
-    left: 160px;
+    left: 280px;
     margin: 15px;
 }
 
@@ -279,11 +321,13 @@ section#ev2 {
 
 section#ev2 h2 {
     color: var(--cor5);
-    padding: 20px;
+    position: absolute;
+    top: 50px;
+    left: 240px;
 }
 
 section#ev2 img {
-    width: 130px;
+    width: 200px;
     margin: 20px;
 }
 
@@ -291,9 +335,10 @@ section#ev2 p.parag1 {
     color: white;
     text-align: justify;
     position: absolute;
-    top: 100px;
-    left: 160px;
+    top: 130px;
+    left: 230px;
     margin: 15px;
+    width: 400px;
 }
 
 section#ev2 p.parag2 {
@@ -301,6 +346,7 @@ section#ev2 p.parag2 {
     text-align: justify;
     position: absolute;
     top: 180px;
-    left: 160px;
+    left: 280px;
     margin: 15px;
+}
 }
