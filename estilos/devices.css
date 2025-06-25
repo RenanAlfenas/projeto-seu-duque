@@ -75,6 +75,9 @@ main {
 
 section.identidade {
     position: relative;
+    display: grid;
+    justify-items: flex-start;
+    margin-top: 50px;
 
 }
 
